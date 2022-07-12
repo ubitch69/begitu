@@ -22,13 +22,13 @@ echo -e  " "
 echo -e  " ${red}═════════════════════════════════════════════════════════════════ "
 echo -e  "                         • SYSTEM MENU • "       
 echo -e  " ${red}═════════════════════════════════════════════════════════════════ "                           
-echo -e  " ${blue}[  8 ] ADD/CHANGE DOMAIN VPS"
-echo -e  " [  3 ] CHANGE PORT SERVICE"
-echo -e  " [  4 ] CHANGE DNS SERVER"
-echo -e  " [  5 ] RENEW V2RAY AND XRAY CERTIFICATION"
-echo -e  " [  6 ] REBOOT VPS"
-echo -e  " [  7 ] SPEEDTEST VPS"
-echo -e  " [  8 ] CHECK SERVICE ERROR"
+echo -e  " ${blue}[  3 ] ADD/CHANGE DOMAIN VPS"
+echo -e  " [  4 ] CHANGE PORT SERVICE"
+echo -e  " [  5 ] CHANGE DNS SERVER"
+echo -e  " [  6 ] RENEW V2RAY AND XRAY CERTIFICATION"
+echo -e  " [  7 ] REBOOT VPS"
+echo -e  " [  8 ] SPEEDTEST VPS"
+echo -e  " [  9 ] CHECK SERVICE ERROR"
 echo -e  " [  0 ] EXIT MENU${NC} "
 echo -e  " "
 echo -e  " ${red}═════════════════════════════════════════════════════════════════" 
@@ -49,22 +49,22 @@ echo -e "\e[0m"
    3)
    add-host
    ;;
-   3)
+   4)
    change
    ;;
-   4)
+   5)
    mdns
    ;;
-   5)
+   6)
    recert-xrayv2ray
    ;;
-   6)
+   7)
    reboot
    ;;
-   7)
+   8)
    speedtest
    ;;
-   8)
+   9)
    checksystem  
    ;;
    0)
