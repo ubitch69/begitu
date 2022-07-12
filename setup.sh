@@ -86,7 +86,7 @@ echo -e "============================================="
 echo -e " ${green} INSTALLING SSH && OVPN && WS ${NC}"
 echo -e "============================================="
 sleep 2
-wget https://raw.githubusercontent.com/ubitch69/loh/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/ubitch69/begitu/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 sleep 2
 clear
 
